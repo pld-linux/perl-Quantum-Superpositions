@@ -8,17 +8,17 @@
 Summary:	Quantum::Superpositions - QM-like superpositions in Perl
 Summary(pl):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
-Version:	1.05
-Release:	2
+Version:	2.02
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0ea7e951d66801a2ab34b074edbd2e2f
-BuildRequires:	perl-devel >= 5.6
+# Source0-md5:	40a3a398ca24be6de510667d92c02f5e
+BuildRequires:	perl-devel >= 5.8
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Class-Multimethods
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,7 +45,8 @@ i all.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -61,5 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Change*
-%{perl_sitelib}/%{pdir}/*.pm
+%{perl_vendorlib}/%{pdir}/*.pm
 %{_mandir}/man3/*
