@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Quantum
-%define	pnam	Superpositions
+%define		pdir	Quantum
+%define		pnam	Superpositions
 Summary:	Quantum::Superpositions - QM-like superpositions in Perl
 Summary(pl):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
