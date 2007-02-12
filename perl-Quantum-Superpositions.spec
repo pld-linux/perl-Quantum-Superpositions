@@ -6,7 +6,7 @@
 %define		pdir	Quantum
 %define		pnam	Superpositions
 Summary:	Quantum::Superpositions - QM-like superpositions in Perl
-Summary(pl):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
+Summary(pl.UTF-8):   Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
 Version:	2.02
 Release:	1
@@ -32,14 +32,14 @@ parallel superimposed states within a single scalar variable.
 The Quantum::Superpositions module adds two new operators to Perl:
 any and all.
 
-%description -l pl
-Modu³ Quantum::Superpositions udostêpnia now± strukturê danych
-skalarnych: superpozycjê. Jest to metafora pochodz±ca z mechaniki
-kwantowej - superpozycje przechowuj± zestaw zmiennych poprzez
-nak³adanie ich w równolegle z³o¿onych stanach w pojedynczej zmiennej
+%description -l pl.UTF-8
+ModuÅ‚ Quantum::Superpositions udostÄ™pnia nowÄ… strukturÄ™ danych
+skalarnych: superpozycjÄ™. Jest to metafora pochodzÄ…ca z mechaniki
+kwantowej - superpozycje przechowujÄ… zestaw zmiennych poprzez
+nakÅ‚adanie ich w rÃ³wnolegle zÅ‚oÅ¼onych stanach w pojedynczej zmiennej
 skalarnej.
 
-Modu³ Quantum::Superpositions dodaje dwa nowe operatory do Perla: any
+ModuÅ‚ Quantum::Superpositions dodaje dwa nowe operatory do Perla: any
 i all.
 
 %prep
