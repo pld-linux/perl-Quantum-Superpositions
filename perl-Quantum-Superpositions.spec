@@ -6,7 +6,7 @@
 %define		pdir	Quantum
 %define		pnam	Superpositions
 Summary:	Quantum::Superpositions - QM-like superpositions in Perl
-Summary(pl.UTF-8):   Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
+Summary(pl.UTF-8):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
 Version:	2.02
 Release:	1
