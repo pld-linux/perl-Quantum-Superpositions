@@ -4,7 +4,6 @@
 
 %define		pdir	Quantum
 %define		pnam	Superpositions
-%include	/usr/lib/rpm/macros.perl
 Summary:	Quantum::Superpositions - QM-like superpositions in Perl
 Summary(pl.UTF-8):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
