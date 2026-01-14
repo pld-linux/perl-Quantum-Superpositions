@@ -8,7 +8,7 @@ Summary:	Quantum::Superpositions - QM-like superpositions in Perl
 Summary(pl.UTF-8):	Quantum::Superpositions - superpozycje z mechaniki kwantowej w Perlu
 Name:		perl-Quantum-Superpositions
 Version:	2.02
-Release:	2
+Release:	3
 # same as perl (5.6.1 or later)
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
